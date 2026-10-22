@@ -1,8 +1,6 @@
 module github.com/andreimarcu/linx-server
 
-go 1.21
-
-toolchain go1.22.4
+go 1.25.0
 
 require (
 	github.com/GeertJohan/go.rice v1.0.3
@@ -17,7 +15,7 @@ require (
 	github.com/vharitonsky/iniflags v0.0.0-20180513140207-a33cd0b5f3de
 	github.com/zeebo/bencode v1.0.0
 	github.com/zenazn/goji v1.0.1
-	golang.org/x/crypto v0.24.0
+	golang.org/x/crypto v0.52.0
 )
 
 require (
@@ -27,7 +25,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.8 // indirect
 	github.com/kr/text v0.2.0 // indirect
-	golang.org/x/net v0.26.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
+	golang.org/x/net v0.54.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 )
